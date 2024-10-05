@@ -9,6 +9,10 @@ node_modules/
 reviewjs-*.tgz
 review.js-vscode-*.tgz
 
+# for https://github.com/Microsoft/TypeScript/issues/4667
+lib/**/*.ts
+!lib/**/*.d.ts
+
 # codes
 resources/grammar-improve.pegjs
 util/
